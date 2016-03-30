@@ -15925,7 +15925,7 @@ module.exports = transfer;
     }
 })(this);
 
-},{"crypto":49}],"web3":[function(require,module,exports){
+},{"crypto":49}],"bigmoby-web3":[function(require,module,exports){
 var Web3 = require('./lib/web3');
 
 // dont override global variable
@@ -15935,5 +15935,5 @@ if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
 
 module.exports = Web3;
 
-},{"./lib/web3":22}]},{},["web3"])
+},{"./lib/web3":22}]},{},["bigmoby-web3"])
 //# sourceMappingURL=web3.js.map

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "web3": "ethereum/web3.js#master"
+    "bigmoby-web3": "ethereum/web3.js#master"
   }
 }
+ß
