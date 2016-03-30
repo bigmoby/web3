@@ -1,14 +1,15 @@
 {
-  "name": "web3",
+  "name": "bigmoby-web3",
   "namespace": "ethereum",
   "version": "0.15.3",
   "description": "Ethereum JavaScript API, middleware to talk to a ethereum node over RPC",
   "main": "./index.js",
   "directories": {
-    "lib": "./lib"
+    "example": "example",
+    "test": "test"
   },
   "dependencies": {
-    "bignumber.js": "git+https://github.com/debris/bignumber.js#master",
+    "bignumber.js": "git+https://github.com/debris/bignumber.js.git#master",
     "crypto-js": "^3.1.4",
     "utf8": "^2.1.1",
     "xmlhttprequest": "*"
@@ -44,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigmoby/web3.git"
+    "url": "git+https://github.com/bigmoby/web3.git"
   },
   "homepage": "https://github.com/bigmoby/web3",
   "keywords": [
@@ -80,5 +81,8 @@
       "url": "https://github.com/obscuren"
     }
   ],
-  "license": "LGPL-3.0"
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bigmoby/web3/issues"
+  }
 }
